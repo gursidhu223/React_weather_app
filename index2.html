@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="header">
+        <h1>Weather</h1>
+        <div class="search-bar">
+            <input type="text" name="" id="input" placeholder="Enter Location">
+            <button class="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
+        <a href="index1.html"> <h3> Hourly Forecast </h3>  </a>
+		<a href="index2.html"> <h3> Weather Forecast</h3> </a>
+        <a href="index_hour.html"> <h3> Weather Location </h3> </a>
+    <main>
+        <div class="weather">
+            <h2 id="city">Delhi, India</h2>
+            <div class="temp">
+                <img src="images/icons/weather.webp" alt="">
+                <p id="temperature">31°C</p>
+            </div>
+            <span id="clouds">Cloudy</span>
+        </div>
+
+        <div class="divider1"></div>
+        <div class="forecast">
+            <p class="forecast-header">Upcoming Forecast</p>
+            <div class="templist">
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>32°C/32°C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">9:30 PM</p>
+                        <p>34°C/34°C</p>
+                    </div>
+                    <p class="desc">Sunny</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">11:30 PM</p>
+                        <p>38°C/38°C</p>
+                    </div>
+                    <p class="desc">hot</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">12:30 PM</p>
+                        <p>41°C/41°C</p>
+                    </div>
+                    <p class="desc">very hot</p>
+                </div>
+                <div class="next">
+                    <div>
+                        <p class="time">3:30 PM</p>
+                        <p>36°C/36°C</p>
+                    </div>
+                    <p class="desc">hot</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+    <div class="forecast2">
+        <div class="divider2"></div>
+            <p class="forecast-header">
+                Next 4 Days Forecast
+            </p>
+            <div class="weekF">
+
+                <div class="dayF">
+                    <p class="date">Wed, June 11, 2023</p>
+                    <p>28°C / 45°C</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="dayF">
+                    <p class="date">Wed, June 12, 2023</p>
+                    <p>27°C / 42°C</p>
+                    <p class="desc">sunny </p>
+                </div>
+
+                <div class="dayF">
+                    <p class="date">Wed, June 13, 2023</p>
+                    <p>28°C / 38°C</p>
+                    <p class="desc">precipitation</p>
+                </div>
+
+                <div class="dayF">
+                    <p class="date">Wed, June 14, 2023</p>
+                    <p>30°C / 46°C</p>
+                    <p class="desc">sunny</p>
+                </div>
+            </div>
+    </div>
+    <script src="back.js"></script>
+</body>
+</html>

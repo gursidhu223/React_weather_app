@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body id="b">
+        <div class="header">
+            <h1>Weather</h1>
+            <div class="search-bar">
+                <input type="text" name="" id="input" placeholder="Enter Location">
+                <button class="search" onclick="searchByCity()">Search</button></input>
+            </div>
+        </div>
+        <a href="index1.html"> <h3> Hourly Forecast </h3>  </a>
+		<a href="index2.html"> <h3> Weather Forecast</h3> </a>
+        <a href="index_hour.html"> <h3> Weather Location </h3> </a>
+        <div class="container">
+            <div class="weather-holder">
+                <div class="wrapper">
+                    <div class="header">
+                        <div class="location-info inline-div">
+                            <div class="location">
+                                <div class="bold-text">New Delhi</div>
+                                <p style="margin: 0" id="date"></p>
+                            </div>
+                            <div class="weather-name">
+                                <img src="images/icons/cloudy.png" alt="">
+                                <div class="semi-bold-text">Cloudy</div>
+                            </div>
+                        </div>
+                        <div class="temp-info inline-div">
+                            <div class="current-temp bold-text">
+                                28°C
+                            </div>
+                            <div class="high-low semi-bold-text">
+                                28°C / 44°C
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather-details">
+                        <div class="slots">
+                            <span class="semi-bold-text active">Hourly</span>
+                            <span class="semi-bold-text inactive">Daily</span>
+                            <span class="semi-bold-text inactive">Details</span>
+                            <span class="semi-bold-text inactive">Precipitation</span>
+                            <span class="semi-bold-text" style="float: right; font-size: 13px !important;">•••</span>
+                        </div>
+                        <div class="hourly-temp">
+                            <div class="temp-holder">
+                                <div class="temp">NOW</div>
+                                <img src="images/icons/cloudy.png" class="temp-img" alt="">
+                                <div class="temp">31°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">10 AM</div>
+                                <img src="images/icons/sunny.png" class="temp-img" alt="">
+                                <div class="temp">33°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">11 AM</div>
+                                <img src="images/icons/sunny.png" class="temp-img" alt="">
+                                <div class="temp">36°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">12 PM</div>
+                                <img src="images/icons/sunny.png" class="temp-img" alt="">
+                                <div class="temp">35°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">1 PM</div>
+                                <img src="images/icons/cloudy.png" class="temp-img" alt="">
+                                <div class="temp">31°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">2 PM</div>
+                                <img src="images/icons/cloudy.png" class="temp-img" alt="">
+                                <div class="temp">32°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">3 PM</div>
+                                <img src="images/icons/cloudy.png" class="temp-img" alt="">
+                                <div class="temp">31°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">4 PM</div>
+                                <img src="images/icons/rainy.png" class="temp-img" alt="">
+                                <div class="temp">29°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">5 PM</div>
+                                <img src="images/icons/rainy.png" class="temp-img" alt="">
+                                <div class="temp">28°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">6 PM</div>
+                                <img src="images/icons/rainy.png" class="temp-img" alt="">
+                                <div class="temp">30°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">7 PM</div>
+                                <img src="images/icons/thunder.png" class="temp-img" alt="">
+                                <div class="temp">29°C</div>
+                            </div>
+                            <div class="temp-holder">
+                                <div class="temp">10 PM</div>
+                                <img src="images/icons/thunder.png" class="temp-img" alt="">
+                                <div class="temp">28°C</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
